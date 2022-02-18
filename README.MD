@@ -9,7 +9,7 @@ Microsoft .NET Framework 4.0 或更高版本
 
 
 ## 演示
-![Screenshot](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/blob/master/DEMO.gif?raw=true)
+![Screenshot](https://github.com/chenshaoju/GenshinImpactMaterialsReservesCalculator/raw/master/DEMO.gif?raw=true)
 
 
 ## 下载
