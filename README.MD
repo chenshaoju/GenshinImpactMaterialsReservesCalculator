@@ -13,7 +13,7 @@ Microsoft .NET Framework 4.0 或更高版本
 
 
 ## 下载
-[原神材料储备计算器](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/releases)
+[原神材料储备情况计算器](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/releases)
 
 
 ## 参考资料
