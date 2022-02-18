@@ -108,10 +108,6 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
-
-    End Sub
-
     Private Sub ListBox1_DoubleClick(sender As Object, e As EventArgs) Handles ListBox1.DoubleClick
         If ListBox1.SelectedItem <> "" Then
             ListBox1.Items.Remove(ListBox1.SelectedItem)
