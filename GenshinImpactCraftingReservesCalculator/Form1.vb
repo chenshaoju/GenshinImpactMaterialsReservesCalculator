@@ -19,7 +19,7 @@ Public Class Form1
             If TextBoxLevel1.Text = "" Or IsNumeric(TextBoxLevel4.Text) = False Then
                 TextBoxLevel1.Text = 0
             End If
-            CalcResult = TextBoxLevel4.Text * 4 + TextBoxLevel3.Text * 3 + TextBoxLevel2.Text * 2 + TextBoxLevel1.Text
+            CalcResult = TextBoxLevel4.Text * 9 + TextBoxLevel3.Text * 6 + TextBoxLevel2.Text * 3 + TextBoxLevel1.Text
             ListBox1.Items.Add(TextBox_Name.Text + "：" + CalcResult)
             TextBox_Name.Text = ""
             TextBoxLevel4.Text = ""
