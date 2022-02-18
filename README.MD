@@ -18,10 +18,15 @@ Microsoft .NET Framework 4.0 或更高版本
 
 ## 参考资料
 https://www.dreamincode.net/forums/topic/340168-remove-items-from-listbox-on-doubleclick-thats-populated-from-a-query/
+
 https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.form.acceptbutton
+
 https://stackoverflow.com/questions/9969824/vb-net-need-text-box-to-only-accept-numbers
+
 https://www.codegrepper.com/code-examples/vb/write+listbox+to+text+file+vb.net
+
 https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.strings.asc
+
 https://docs.microsoft.com/en-us/dotnet/api/system.io.file.writealltext
 
 
