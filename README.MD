@@ -6,7 +6,7 @@ Microsoft Windows 操作系统
 Microsoft .NET Framework 4.0 或更高版本
 
 ## 演示
-![Screenshot](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/DEMO.gif?raw=true)
+![Screenshot](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/blob/master/DEMO.gif?raw=true)
 
 ## 下载
 [原神材料储备计算器](https://github.com/chenshaoju/GenshinImpactCraftingReservesCalculator/releases)
