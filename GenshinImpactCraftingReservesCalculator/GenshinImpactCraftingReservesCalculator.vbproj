@@ -115,5 +115,8 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.MD" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

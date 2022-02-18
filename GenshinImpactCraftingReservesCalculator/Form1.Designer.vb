@@ -35,6 +35,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
@@ -153,6 +154,7 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Button3)
         Me.GroupBox2.Controls.Add(Me.Button2)
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.ListBox1)
@@ -163,12 +165,21 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "数据区"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(224, 258)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "导出文件"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(224, 316)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 2
+        Me.Button2.TabIndex = 10
         Me.Button2.Text = "清空数据"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -177,7 +188,7 @@ Partial Class Form1
         Me.Button1.Location = New System.Drawing.Point(224, 287)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
+        Me.Button1.TabIndex = 9
         Me.Button1.Text = "删除所选"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -193,11 +204,13 @@ Partial Class Form1
         '
         'Form1
         '
+        Me.AcceptButton = Me.BottonCalc
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(337, 450)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form1"
         Me.Text = "原神材料储备计算器"
         Me.GroupBox1.ResumeLayout(False)
@@ -223,4 +236,5 @@ Partial Class Form1
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button3 As Button
 End Class
